@@ -1,0 +1,9 @@
+<button type="button" (click)="getItems()">
+  Get Items
+</button>
+
+<div *ngFor="let item of itemList">
+  <p>
+    Name: {{item.title}}, Age: {{item.age}}
+  </p>
+</div>
